@@ -1,0 +1,18 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+  width: 90vw;
+  max-width: 1100px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.navbar__cart-icon {
+  cursor: pointer;
+}
+
+.navbar__cart-icon:active {
+  transform: scale(1.05);
+}

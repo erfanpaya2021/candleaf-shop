@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("./assets/fonts/Vazir-Medium-FD-WOL.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Vazir";
+  font-weight: 700;
+  src: url("./assets/fonts/Vazir-Bold-FD-WOL.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Vazir", sans-serif;
+}
+
+body {
+  color: #1d252c;
+}
+
+/*  primary: #56B280,
+    black: #272727,
+    white: #fff */
