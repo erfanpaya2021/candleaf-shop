@@ -1,0 +1,9 @@
+.testimonials-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  width: 90vw;
+  max-width: 1024px;
+  margin: 2rem auto 0;
+  text-align: center;
+}

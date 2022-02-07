@@ -1,0 +1,14 @@
+.h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2.25rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  text-align: center;
+  color: #56b280;
+  margin-bottom: 1rem;
+}

@@ -9,7 +9,7 @@
   align-items: center;
   width: 90vw;
   min-height: 30rem;
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 4rem 0;
 }
@@ -19,9 +19,9 @@
   min-width: 400px;
 }
 
+.benefits__content h2,
 .benefits__content p {
-  margin: 0.5rem 0 1.5rem;
-  color: #56b280;
+  text-align: right;
 }
 
 .benefits__image {

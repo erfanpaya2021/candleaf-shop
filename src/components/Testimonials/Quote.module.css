@@ -1,0 +1,16 @@
+.quote {
+  padding: 2rem 0;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(86, 178, 128, 0.1);
+  border-radius: 0.5rem;
+}
+
+.quote__message {
+  font-size: 1.25rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.quote__name {
+  font-size: 1.05rem;
+  color: #a2afa2;
+}
