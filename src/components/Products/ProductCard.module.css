@@ -1,0 +1,21 @@
+.card {
+  border-radius: 1rem;
+  text-align: right;
+  overflow: hidden;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card__image {
+  background-color: #f7f8fa;
+}
+
+.card__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 1rem;
+}
+
+.card__content p {
+  color: #56b280;
+}

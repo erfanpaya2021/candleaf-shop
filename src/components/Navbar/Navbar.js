@@ -1,6 +1,6 @@
 import CartIcon from "./CartIcon";
 
-import logo from "../../assets/images/logo.jpg";
+import logo from "../../assets/images/icon.png";
 import classes from "./Navbar.module.css";
 
 const Navbar = () => {

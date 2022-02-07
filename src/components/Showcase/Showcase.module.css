@@ -14,9 +14,10 @@
   justify-content: center;
   text-align: center;
   width: 40rem;
+  margin: 0 2rem;
   min-height: 15rem;
   border-radius: 10px;
-  padding: 2rem 6rem;
+  padding: 2rem clamp(2rem, 2vw, 6rem);
   background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
