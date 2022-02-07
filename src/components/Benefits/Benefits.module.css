@@ -1,0 +1,50 @@
+.benefits {
+  width: 100%;
+  background-color: #f7f8fa;
+}
+
+.benefits__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  min-height: 30rem;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.benefits__content {
+  flex: 1;
+  min-width: 400px;
+}
+
+.benefits__content p {
+  margin: 0.5rem 0 1.5rem;
+  color: #56b280;
+}
+
+.benefits__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+}
+
+.benefits__image img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 968px) {
+  .benefits__container {
+    flex-direction: column;
+    row-gap: 4rem;
+  }
+
+  .benefits__image {
+    width: 300px;
+    height: 300px;
+  }
+}

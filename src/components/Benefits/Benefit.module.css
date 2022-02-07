@@ -1,0 +1,14 @@
+.benefit {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.benefit__title {
+  margin: 0 0.4rem;
+  font-weight: 700;
+}
+
+.benefit__description {
+  color: #353c42;
+}

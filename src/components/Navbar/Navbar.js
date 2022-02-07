@@ -6,12 +6,13 @@ import classes from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <nav className={classes.navbar}>
-      <span>
+      <div className={classes.navbar__logo}>
         <img src={logo} alt="candleaf" />
-      </span>
-      <span className={classes["navbar__cart-icon"]}>
+        <span> شمع برگ</span>
+      </div>
+      <div className={classes["navbar__cart-icon"]}>
         <CartIcon />
-      </span>
+      </div>
     </nav>
   );
 };

@@ -4,9 +4,23 @@
   justify-content: space-between;
   height: 10vh;
   width: 90vw;
-  max-width: 1100px;
+  max-width: 1024px;
   margin: 0 auto;
   background-color: #fff;
+}
+
+.navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar__logo img {
+  margin-left: 1rem;
+}
+
+.navbar__logo span {
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 
 .navbar__cart-icon {
