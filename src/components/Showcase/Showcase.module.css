@@ -4,7 +4,7 @@
   justify-content: center;
   background: url("../../assets/images/bg-image.jpg") no-repeat center;
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
 }
 
 .showcase__content {

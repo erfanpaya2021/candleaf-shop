@@ -20,6 +20,11 @@ body {
   color: #1d252c;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /*  primary: #56B280,
     black: #272727,
     white: #fff */

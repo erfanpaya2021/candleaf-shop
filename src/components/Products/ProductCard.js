@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Utils/Button/Button";
 import classes from "./ProductCard.module.css";
 
 const ProductCard = ({ id, title, price, image }) => {
@@ -10,6 +11,9 @@ const ProductCard = ({ id, title, price, image }) => {
       <div className={classes.card__content}>
         <h3>{title}</h3>
         <p>{price} تومان</p>
+      </div>
+      <div className={classes.card__actions}>
+        <Button>افزودن به سبد </Button>
       </div>
     </div>
   );

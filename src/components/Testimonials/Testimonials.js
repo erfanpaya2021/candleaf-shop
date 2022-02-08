@@ -11,14 +11,14 @@ const Testimonials = () => {
   ));
 
   return (
-    <div className={classes.testimonials}>
+    <section className={classes.testimonials}>
       <SectionHeader
         title="نظرات شما"
         subtitle="چند نقل قول از مشتریان خوشحال ما"
       />
 
       <TestimonialsList quotes={quotes} />
-    </div>
+    </section>
   );
 };
 

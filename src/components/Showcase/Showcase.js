@@ -2,7 +2,7 @@ import classes from "./Showcase.module.css";
 
 const Showcase = () => {
   return (
-    <div className={classes.showcase}>
+    <section className={classes.showcase}>
       <div className={classes.showcase__content}>
         <h2>شمع های طبیعت</h2>
         <p>
@@ -11,7 +11,7 @@ const Showcase = () => {
         </p>
         <button>دنبال کردن مجموعه ما</button>
       </div>
-    </div>
+    </section>
   );
 };
 

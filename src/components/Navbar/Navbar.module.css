@@ -1,12 +1,20 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(247, 248, 250, 0.9);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 10vh;
   width: 90vw;
   max-width: 1024px;
   margin: 0 auto;
-  background-color: #f7f8fa;
+  padding: 1rem 0;
 }
 
 .navbar__logo {

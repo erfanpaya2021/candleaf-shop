@@ -10,7 +10,7 @@ const Benefits = () => {
   ));
 
   return (
-    <div className={classes.benefits}>
+    <section className={classes.benefits}>
       <div className={classes.benefits__container}>
         <div className={classes.benefits__content}>
           <SectionHeader
@@ -24,7 +24,7 @@ const Benefits = () => {
           <img src={benefitsImage} alt="" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
