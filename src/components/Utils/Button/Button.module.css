@@ -17,3 +17,9 @@
 .button:active {
   background-color: #46a260;
 }
+
+.button:disabled {
+  cursor: not-allowed;
+  background-color: #56b280;
+  opacity: 1;
+}

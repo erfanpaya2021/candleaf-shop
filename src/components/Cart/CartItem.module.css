@@ -39,5 +39,6 @@
   margin: 0 0.5rem;
   font-size: 1.5rem;
   color: #56b280;
+  user-select: none;
   cursor: pointer;
 }

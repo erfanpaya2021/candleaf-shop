@@ -1,11 +1,15 @@
+import { useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import CartIcon from "./CartIcon";
 
+import CartIcon from "./CartIcon";
 import logo from "../../assets/images/icon.png";
+
 import classes from "./Navbar.module.css";
 
 const Navbar = () => {
   const navigate = useNavigate();
+
+  const totalQuantity = useSelector((state) => state.cart.totalQuantity);
 
   return (
     <nav className={classes.navbar}>
@@ -19,6 +23,7 @@ const Navbar = () => {
           className={classes["navbar__cart-icon"]}
         >
           <CartIcon />
+          <span className={classes.navbar__quantity}>{totalQuantity}</span>
         </div>
       </div>
     </nav>

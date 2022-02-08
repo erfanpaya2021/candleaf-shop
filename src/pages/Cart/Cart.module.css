@@ -2,7 +2,7 @@
   width: 90vw;
   max-width: 1024px;
   min-height: 90vh;
-  margin: 8rem auto 0;
+  margin: 4rem auto;
   text-align: center;
 }
 
@@ -12,13 +12,12 @@
 }
 
 .cart > a {
-  border-bottom: 2.5px solid #56b280;
   font-size: 1.15rem;
   color: #56b280;
 }
 
 .cart > a:hover {
-  border-bottom-color: #46a260;
+  border-bottom: 2px solid #56b280;
   color: #46a260;
 }
 
