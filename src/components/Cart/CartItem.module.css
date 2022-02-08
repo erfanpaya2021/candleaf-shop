@@ -1,0 +1,43 @@
+.card td {
+  flex: 1;
+  padding: 1rem 0;
+  text-align: right;
+}
+
+.card td:first-child {
+  flex: 3;
+  display: flex;
+}
+
+.card img {
+  width: 120px;
+  height: 100px;
+  background-color: #f7f8fa;
+}
+
+.card__content {
+  margin-right: 1rem;
+}
+
+.card__content h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.card__content span {
+  color: #56b280;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.card__actions {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.card__actions span {
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+  color: #56b280;
+  cursor: pointer;
+}

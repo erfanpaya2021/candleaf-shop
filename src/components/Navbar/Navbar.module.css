@@ -20,6 +20,7 @@
 .navbar__logo {
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 
 .navbar__logo img {

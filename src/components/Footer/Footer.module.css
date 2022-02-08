@@ -6,10 +6,11 @@
 .footer__container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 90vw;
   max-width: 1024px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .footer__logo {
