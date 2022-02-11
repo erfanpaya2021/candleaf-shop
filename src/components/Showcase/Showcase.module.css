@@ -28,22 +28,22 @@
   margin-bottom: 1.5rem;
 }
 
-.showcase__content button {
-  display: inline-block;
-  outline: 0;
-  border: 0;
-  border-radius: 0.25rem;
-  padding: 0.5rem 1rem;
-  margin: 1.5rem 0 1rem;
-  background-color: #56b280;
-  color: #fff;
-  cursor: pointer;
+.showcase__content p {
+  font-size: 1rem;
 }
 
-.showcase__content button:hover {
-  opacity: 0.9;
+@media (max-width: 768px) {
+  .showcase__content h2 {
+    font-size: 1.5rem;
+  }
+
+  .showcase__content p {
+    font-size: 0.925rem;
+  }
 }
 
-.showcase__content button:active {
-  background-color: #46a260;
+@media (max-width: 480px) {
+  .showcase__content p {
+    font-size: 0.825rem;
+  }
 }

@@ -21,7 +21,12 @@
   padding: 1.5rem 1.5rem 0;
 }
 
+.card__content h3 {
+  font-size: 1.25rem;
+}
+
 .card__content p {
+  font-size: 1rem;
   color: #56b280;
 }
 
@@ -32,4 +37,24 @@
 
 .card__actions button {
   flex: 1;
+}
+
+@media (max-width: 768px) {
+  .card__content h3 {
+    font-size: 1.05rem;
+  }
+
+  .card__content p {
+    font-size: 0.925rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card__content h3 {
+    font-size: 0.925rem;
+  }
+
+  .card__content p {
+    font-size: 0.875rem;
+  }
 }

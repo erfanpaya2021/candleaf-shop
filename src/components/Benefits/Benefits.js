@@ -21,7 +21,7 @@ const Benefits = () => {
           <div className={classes.benefits__list}>{benefits}</div>
         </div>
         <div className={classes.benefits__image}>
-          <img src={benefitsImage} alt="" />
+          <img src={benefitsImage} alt="bg" loading="lazy" />
         </div>
       </div>
     </section>

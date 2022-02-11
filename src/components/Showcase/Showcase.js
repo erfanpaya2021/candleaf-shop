@@ -1,3 +1,4 @@
+import Button from "../Utils/Button/Button";
 import classes from "./Showcase.module.css";
 
 const Showcase = () => {
@@ -9,7 +10,7 @@ const Showcase = () => {
           شمع برگ تماما دست ساز با موم سویا طبیعی همراهی برای تمام لحظات لذت بخش
           شماست
         </p>
-        <button>دنبال کردن مجموعه ما</button>
+        <Button>دنبال کردن مجموعه ما</Button>
       </div>
     </section>
   );

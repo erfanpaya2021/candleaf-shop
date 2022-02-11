@@ -2,8 +2,21 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+  justify-content: center;
   width: 90vw;
   max-width: 1024px;
   margin: 2rem auto 0;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .testimonials-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .testimonials-list {
+    grid-template-columns: minmax(250px, 300px);
+  }
 }

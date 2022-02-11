@@ -7,8 +7,37 @@
 .benefit__title {
   margin: 0 0.4rem;
   font-weight: 700;
+  font-size: 1rem;
 }
 
 .benefit__description {
-  color: #353c42;
+  color: #58646f;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .benefit__title {
+    margin: 0 0 0.4rem;
+    font-size: 0.925rem;
+  }
+  .benefit__description {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .benefit {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 480px) {
+  .benefit__title {
+    font-size: 0.875rem;
+  }
+  .benefit__description {
+    font-size: 0.825rem;
+    margin-right: 0.5rem;
+  }
 }

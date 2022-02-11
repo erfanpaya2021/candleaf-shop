@@ -1,4 +1,7 @@
 .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   background-color: rgba(247, 248, 250, 0.9);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -42,8 +45,8 @@
 
 .navbar__quantity {
   position: absolute;
-  top: -8px;
-  right: -8px;
+  top: -6px;
+  right: -6px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -54,4 +57,36 @@
   background-color: #56b280;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   color: #272727;
+}
+
+@media (max-width: 768px) {
+  .navbar__cart-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar__quantity {
+    top: -4px;
+    right: -4px;
+    width: 18px;
+    height: 18px;
+    font-size: 0.875rem;
+  }
+
+  .navbar__logo span {
+    font-size: 1.15rem;
+  }
+}
+
+@media (max-width: 480px) {
+  @media (max-width: 768px) {
+    .navbar__cart-icon {
+      width: 25px;
+      height: 25px;
+    }
+
+    .navbar__logo span {
+      font-size: 1.05rem;
+    }
+  }
 }

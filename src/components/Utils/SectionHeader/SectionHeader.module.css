@@ -12,3 +12,23 @@
   color: #56b280;
   margin-bottom: 1rem;
 }
+
+@media (max-width: 768px) {
+  .h2 {
+    font-size: 1.75rem;
+  }
+
+  .p {
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .h2 {
+    font-size: 1.5rem;
+  }
+
+  .p {
+    font-size: 0.925rem;
+  }
+}

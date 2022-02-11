@@ -27,7 +27,11 @@ const CartItem = ({ id, title, image, price, quantity, totalPrice }) => {
   return (
     <tr className={classes.card}>
       <td>
-        <img src={require(`../../assets/images/products/${image}`)} alt="" />
+        <img
+          src={require(`../../assets/images/products/${image}`)}
+          alt={title}
+          loading="lazy"
+        />
         <div className={classes.card__content}>
           <h3>{title}</h3>
           <span onClick={handleFullyRemoveItem}>Remove</span>
@@ -38,7 +42,7 @@ const CartItem = ({ id, title, image, price, quantity, totalPrice }) => {
         <span onClick={handleAddItem}>+</span> {quantity}
         <span onClick={handleRemoveItem}> - </span>
       </td>
-      <td>{totalPrice}</td>
+      <td>{totalPrice} تومان</td>
     </tr>
   );
 };

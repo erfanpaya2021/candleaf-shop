@@ -2,7 +2,7 @@
   width: 90vw;
   max-width: 1024px;
   min-height: 90vh;
-  margin: 4rem auto;
+  margin: 6rem auto 4rem;
   text-align: center;
 }
 
@@ -53,4 +53,45 @@
 .cart__checkout {
   text-align: right;
   margin-top: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .cart__table tr > th:first-child {
+    flex: 2;
+  }
+
+  .cart > h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .cart > a {
+    font-size: 1.05rem;
+  }
+
+  .cart__checkout h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .cart tr td:last-child,
+  .cart tr th:last-child {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .cart > h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .cart__checkout h3 {
+    font-size: 0.95rem;
+  }
+
+  .cart > a {
+    font-size: 0.925rem;
+  }
 }

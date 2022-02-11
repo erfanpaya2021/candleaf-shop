@@ -5,6 +5,7 @@
   border-radius: 0.25rem;
   padding: 0.5rem 1rem;
   margin: 1.5rem 0 1rem;
+  font-size: 1rem;
   background-color: #56b280;
   color: #fff;
   cursor: pointer;
@@ -22,4 +23,16 @@
   cursor: not-allowed;
   background-color: #56b280;
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .button {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .button {
+    font-size: 0.75rem;
+  }
 }
