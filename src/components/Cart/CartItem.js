@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 
-import { addItem, removeItem, fullyRemoveItem } from "../../store/rootActions";
+import { addItem, removeItem, fullyRemoveItem } from "../../store/root-actions";
 
 import classes from "./CartItem.module.css";
 

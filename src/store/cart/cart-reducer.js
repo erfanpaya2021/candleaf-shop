@@ -1,4 +1,4 @@
-import { ADD_ITEM, REMOVE_ITEM, FULLY_REMOVE_ITEM } from "./cartTypes";
+import { ADD_ITEM, REMOVE_ITEM, FULLY_REMOVE_ITEM } from "./cart-types";
 
 const initialState = {
   items: [],

@@ -9,12 +9,12 @@ export const TESTIMONIALS_DATA = [
     id: 2,
     name: "جان",
     message: "“توصیه شده برای همه”",
-    image: "testimonial-1.png",
+    image: "testimonial-2.png",
   },
   {
     id: 3,
     name: "جان",
     message: "“توصیه شده برای همه”",
-    image: "testimonial-1.png",
+    image: "testimonial-3.png",
   },
 ];
